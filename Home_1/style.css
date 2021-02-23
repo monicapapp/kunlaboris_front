@@ -22,6 +22,7 @@
   overflow: hidden;
   border: 1px solid #fafafa;
   margin-top: 10px auto;
+  float: left;
 }
 .seccion1 {
   font-size: 32px;
@@ -104,3 +105,14 @@
 }
 
 /* --votos-- */
+
+/* ----Categorias-- -*/
+
+#sidebar {
+  float: right;
+  width: 275px;
+  height: 402px;
+  top: 272px;
+  border-radius: 8px;
+  background-color: #2f80ed;
+}
