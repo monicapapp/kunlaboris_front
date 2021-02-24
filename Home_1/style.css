@@ -109,10 +109,160 @@
 /* ----Categorias-- -*/
 
 #sidebar {
+  margin: 5%;
   float: right;
-  width: 275px;
-  height: 402px;
+  width: 250px;
+  height: 400px;
   top: 272px;
   border-radius: 8px;
   background-color: #2f80ed;
+}
+.encabezado-sidebar {
+  margin: 5%;
+  background: #2f80ed;
+  text-align: left;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+}
+
+#category ul {
+  margin: 0%;
+  padding: 0px;
+  list-style: none;
+}
+.menu li:hover {
+  background: #27ae60;
+}
+
+.menu li a {
+  margin: 15%;
+  padding: 15px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+}
+
+/* ----calendario--- */
+
+#calendar {
+  width: 250px;
+  height: 350px;
+  float: right;
+  top: 688px;
+  margin: 1em auto;
+  padding: 0.5em 0;
+  background: #f2994a;
+  border-radius: 8px;
+}
+.calendar-info {
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+  letter-spacing: 0.1px;
+}
+
+.calendar__prev,
+.calendar__next {
+  color: rgb(51, 50, 50);
+  cursor: pointer;
+  font-size: 1 3em;
+}
+
+.calendar__prev {
+  margin-right: auto;
+}
+
+.calendar__next {
+  margin-left: auto;
+}
+
+.calendar__month,
+.calendar__year {
+  padding: 0.5em 1em;
+}
+
+.calendar-week,
+.calendar-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+}
+
+.calendar__item {
+  text-align: center;
+  line-height: 3.5;
+}
+
+.today {
+  background: lightcoral;
+  color: white;
+  width: 50%;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.last-days {
+  opacity: 0.3;
+}
+
+/* ---tema de la semana--- */
+
+#tema-semanal {
+  width: 250px;
+  height: 300px;
+  float: right;
+  top: 688px;
+  margin: 1em auto;
+  padding: 0.5em 0;
+  background: #2d9cdb;
+  border-radius: 8px;
+}
+
+.encabezado-tema {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+
+.photo-tema {
+  align-content: center;
+  width: 240px;
+  height: 155px;
+  left: 0px;
+  top: 43px;
+}
+
+.pie-tema {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+.notas {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
 }
